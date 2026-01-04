@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit import spinner
 from streamlit.web.server.server import server_port_is_manually_set
-
+ 
 from supporting_functions import (
      extract_video_id,
      get_transcript,
